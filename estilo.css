@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+.contenedor {
+    background-color: gray;
+    width: 1000px;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    background-color: green;
+}
+
+.logo {
+    width: 200px;
+}
+
+.titulo {
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.titulo h1 {
+    color: red;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    font-size: 4em;
+}
+
+.titulo p {
+    color: blue;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    font-size: xx-large;
+}
+
+@media (max-width: 600px) {
+    .titulo h1 {
+        font-size: x-large;
+    }
+
+    .titulo p {
+        font-size: large;
+    }
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 1000px;
+    max-width: 90vw;
+    background-color: white;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav > li > a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}

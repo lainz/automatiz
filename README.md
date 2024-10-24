@@ -1,2 +1,0 @@
-# automatiz
-Web Automatiz
