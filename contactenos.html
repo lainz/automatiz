@@ -30,7 +30,76 @@
         </div>
         <div class="contenido">
             <h1>Contactenos</h1>
+            <p>Para más información Contáctenos al <a href="tel:+54111532527872">011 15 32527872</a></p>
+            <p>o envíenos un mail a <a href="mailto:soporte@automatiz.com.ar">soporte@automatiz.com.ar</a></p>
 
+            <p>Para más consultas sobre algún servicio en particular:</p>
+
+            <form>
+                <label for="nombre">Nombre</label>
+                <br>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+
+                <label for="apellido">Apellido</label>
+                <br>
+                <input type="text" id="apellido" name="apellido" required>
+                <br>
+
+                <label for="correo">Correo</label>
+                <br>
+                <input type="email" id="correo" name="correo" required>
+                <br>
+
+                <label for="telefono">Teléfono</label>
+                <br>
+                <input type="text" id="telefono" name="telefono" required>
+                <br>
+                <p>Desea Averiguar Sobre</p>
+                <div>
+                    <input type="checkbox" id="alineadoras" name="alineadoras">
+                    <label for="alineadoras">Alineadoras</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="alineadoras_inalambricas" name="alineadoras_inalambricas">
+                    <label for="alineadoras_inalambricas">Alineadoras Inalambricas</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="elevadores_tijera" name="elevadores_tijera">
+                    <label for="elevadores tijera">Elevadores Tijera</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="desarmadoras_industriales" name="desarmadoras_industriales">
+                    <label for="desarmadoras_industriales">Desarmadoras Industriales</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="elevadoras_moviles" name="elevadoras_moviles">
+                    <label for="elevadoras_moviles">Elevadoras Moviles</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="balanceadoras_electronicas" name="balanceadoras_electronicas">
+                    <label for="balanceadoras_electronicas">Balanceadoras Electronicas</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="desarmadoras" name="desarmadoras">
+                    <label for="desarmadoras">Desarmadoras</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="elevador_de_cuatro_columnas" name="elevador_de_cuatro_columnas">
+                    <label for="elevador_de_cuatro_columnas">Elevador de 4 columnas</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="otros">
+                    <label for="otros">Otros</label>
+                </div>
+                <div>
+                    <label for="mas_detalles">Mas detalles</label>
+                    <br>
+                    <textarea id="mas_detalles" name="mas_detalles" style="width: 100%; height: 100px"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Cancelar</button>
+            </form>
         </div>
     </div>
     <div class="footer">
@@ -38,6 +107,7 @@
         <p>Contactenos al 11 32527872</p>
         <p>Callao 596 - Merlo</p>
     </div>
+    <script src="./app.js"></script>
 </body>
 
 </html>
