@@ -1,7 +1,11 @@
+/* CUERPO */
+
 body {
     background-color: black;
     margin: 0px;
 }
+
+/* CONTENEDORES */
 
 .contenedor {
     background-color: rgb(50, 50, 50);
@@ -16,11 +20,15 @@ body {
     padding: 20px;
 }
 
+/* CABECERA */
+
 .header {
     display: flex;
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
+
+/* PIE */
 
 .footer {
     background-color: white;
@@ -33,6 +41,8 @@ body {
     margin-bottom: 0px;
 }
 
+/* IMAGEN TITULO */
+
 .logo {
     height: 200px;
 }
@@ -40,6 +50,8 @@ body {
 .logo img {
     height: 100%;
 }
+
+/* TITULO */
 
 .titulo {
     width: 800px;
@@ -76,6 +88,8 @@ body {
     }
 }
 
+/* NAVEGACION */
+
 .nav {
     list-style-type: none;
     margin: 0;
@@ -111,4 +125,27 @@ body {
     background-color: gray;
     border-radius: 20px;
     color: white;
+}
+
+/* SERVICIOS */
+
+.servicios {
+    display: flex;
+}
+
+.servicios div {
+    width: 40vw;
+}
+
+.servicios img {
+    max-width: 50vw;
+}
+
+@media (max-width: 600px) {
+    .servicios {
+        flex-wrap: wrap;
+    }
+    .servicios div {
+        width: 100vw;
+    }
 }
