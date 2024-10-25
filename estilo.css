@@ -22,6 +22,17 @@ body {
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
+.footer {
+    background-color: white;
+    text-align: center;
+    border-top: 4px solid rgb(122,214,40);
+    padding: 20px;
+}
+
+.footer p {
+    margin-bottom: 0px;
+}
+
 .logo {
     height: 200px;
 }
@@ -79,17 +90,25 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     border-bottom: 4px solid rgb(122,214,40);
 }
 
 .nav > li {
     float: left;
+    margin: 10px;
 }
 
 .nav > li > a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    text-decoration: none;
+    color: black;
+}
+
+.nav > li > a:hover {
+    background-color: gray;
+    border-radius: 20px;
+    color: white;
 }
